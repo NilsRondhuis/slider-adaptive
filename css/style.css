@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 50px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* @media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+@media screen and (min-width: 1080px) {
+    .container {
+        width: 1080px;
+    }
+} */
+
+.slider {
+    position: relative;
+    border: 2px solid black;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    display: flex;
+    transition: all linear 500ms;
+}
